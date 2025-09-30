@@ -6,6 +6,7 @@ import { mockInfluencers } from "../data/influencers"; // <-- make sure this pat
 import InfluencerCard from "../component/InfluencerCard";
 import HomepageHeader from "../component/HomepageHeader";
 
+
 export default function Home() {
   //console.log("DEBUG mockInfluencers:", mockInfluencers);
   const influencers = Array.isArray(mockInfluencers) ? mockInfluencers : [];

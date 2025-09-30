@@ -1,5 +1,6 @@
 import React from "react";
 import { Influencer } from "../data/influencers";
+import Link from "next/link";
 
 interface Props {
   influencer: Influencer;
@@ -53,9 +54,12 @@ const InfluencerCard: React.FC<Props> = ({ influencer }) => {
       </div>
 
       {/* Button */}
-      <button className="mt-4 bg-gradient-to-r from-pink-500 to-orange-400 text-white px-4 py-2 rounded-full w-full">
-        View Profile
-      </button>
+      <Link
+  href={`/influencer/${influencer.username}`}
+  className="mt-4 bg-gradient-to-r from-pink-500 to-orange-400 text-white px-4 py-2 rounded-full w-full text-center"
+>
+  View Profile
+</Link>
     </div>
   );
 };
