@@ -40,9 +40,9 @@ export default function InfluencerProfilePage() {
 
     return (
 
-        <div className="bg-pink-100 min-h-screen">
+        <div className="bg-pink-100 min-h-screen pt-0  ">
             <InsightsHeader />
-            <div className="max-w-5xl mx-auto">
+            <div className="w-full px-4 mb-12">
                 <InfluencerProfileCard
                     name={influencer.name}
                     username={influencer.username}
@@ -54,16 +54,19 @@ export default function InfluencerProfilePage() {
                 {/* Add more sections here, such as analytics, posts, reels, etc. */}
             </div>
 
-
+            <div className="w-full px-4 mb-12">
             <EngagementAnalytics
                 avgLikes={avgLikes}
                 avgComments={avgComments}
                 engagementRate={engagementRate}
             />
+            </div>
             <LikesCommentsTrendChart data={chartData} />
             <RecentPosts posts={posts} />
             <ReelsCarousel reels={reels} />
+            <div className="pb-10 mx-2">
             <Demographics />
+            </div>
         </div>
     );
 }

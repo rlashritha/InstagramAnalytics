@@ -7,7 +7,7 @@ type Props = {
 };
 
 const RecentPosts: React.FC<Props> = ({ posts }) => (
-  <section className="mt-12">
+  <section className="mt-12 mx-3">
     <h2 className="text-2xl font-semibold mb-6">Recent Posts</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       {posts.map(post => (

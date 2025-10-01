@@ -15,11 +15,11 @@ const EngagementAnalytics: React.FC<EngagementAnalyticsProps> = ({
   engagementRate,
 }) => {
   return (
-    <section className="mt-8">
+    <section className="mt-8 ">
       <h2 className="text-2xl font-semibold mb-6">Engagement Analytics</h2>
       <div className="flex gap-6">
         {/* Avg Likes */}
-        <div className="flex-1 bg-pink-50 border rounded-2xl border-pink-100 py-6 px-8 relative min-w-[250px]">
+        <div className="flex-1 bg-pink-50 border rounded-2xl border-pink-100 py-1 px-8 relative min-w-[250px]">
           <span className="text-gray-500 mb-2 block">Avg Likes / Post</span>
           <span className="text-3xl font-bold">{avgLikes.toLocaleString()}</span>
           <FaHeart className="absolute right-8 bottom-6 text-pink-400 text-2xl" />

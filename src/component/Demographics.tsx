@@ -5,8 +5,8 @@ import { genderData, ageData, locationData } from "@/src/data/demographics";
 
 export default function Demographics() {
   return (
-    <section className="mb-8">
-      <h2 className="text-2xl mb-6">Audience Demographics</h2>
+    <section className="mb-20 mx-3">
+      <h2 className="text-2xl mb-6 mt-6">Audience Demographics</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Gender Split */}
         <div className="bg-white rounded-2xl p-6 shadow">

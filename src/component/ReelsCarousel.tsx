@@ -13,9 +13,10 @@ const formatNumber = (num: number) => {
 };
 
 const ReelsCarousel: React.FC<Props> = ({ reels }) => (
-  <section className="mt-12">
+  <section className="mt-12 mx-3">
     <h2 className="text-2xl font-semibold mb-6">Latest Reels</h2>
-    <div className="flex gap-8 overflow-x-auto">
+    <div className="pb-8">
+    <div className="flex gap-8 overflow-x-auto pb-3">
       {reels.map((reel) => (
         <div
           key={reel.id}
@@ -56,6 +57,7 @@ const ReelsCarousel: React.FC<Props> = ({ reels }) => (
           </div>
         </div>
       ))}
+      </div>
     </div>
   </section>
 );

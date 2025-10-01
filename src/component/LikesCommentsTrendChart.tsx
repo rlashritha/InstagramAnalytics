@@ -8,7 +8,7 @@ type Props = {
 };
 
 const LikesCommentsTrendChart: React.FC<Props> = ({ data }) => (
-  <section className="bg-white rounded-2xl p-6 shadow">
+  <section className="bg-white rounded-2xl p-6 shadow mx-3">
     <h3 className="text-lg font-semibold mb-4">Likes vs Comments Trend</h3>
     <div style={{ width: "100%", height: 320 }}>
       <ResponsiveContainer width="100%" height="100%">
