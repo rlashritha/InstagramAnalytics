@@ -1,5 +1,5 @@
 // src/app/page.tsx
-"use client"; // optional but helpful during debugging
+"use client"; 
 
 import Image from "next/image";
 import { mockInfluencers } from "../data/influencers"; // <-- make sure this path & name match your file
