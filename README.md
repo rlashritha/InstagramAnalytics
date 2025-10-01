@@ -8,43 +8,45 @@ A full-stack web application that showcases an Instagram influencer’s profile,
 Built with **Next.js + TypeScript** to demonstrate frontend, backend, and data handling capabilities.  
 
 ---
+# Project Title
 
-## 🚀 Features Implemented  
+A brief description of what this project does and who it's for
 
-### 👤 Influencer Profile  
+##  Features Implemented  
+
+###  Influencer Profile  
 - Name, Username (@handle), Profile Picture  
 - Followers, Following, Posts count  
 
-### 📊 Engagement & Analytics  
+### Engagement & Analytics  
 - Average likes per post  
 - Average comments per post  
 - Engagement rate (%)  
 
-### 🖼️ Post-Level Data  
+###  Post-Level Data  
 - Recent posts with:  
   - Thumbnail image  
   - Caption text  
   - Likes & Comments count  
-- Planned Feature: **Tag generation & vibe analysis (using ML/image processing)**  
-
-### 🎥 Reels Data *(Planned)*  
+- Planned Feature: Tag generation & vibe analysis (using ML/image processing) 
+ Reels Data (Planned)
 - Structure ready for Reels (views, likes, comments)  
 - Future scope: Object/event detection in reels  
 
-### 📈 Visualizations  
+ Visualizations  
 - Engagement metrics displayed in a clean, responsive UI  
 - Charts for likes/comments trends  
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
-**Frontend:**  
+  Frontend:
 - Next.js (React Framework)  
 - TypeScript  
 - Tailwind CSS (for responsive, modern UI)  
 
-**Backend:**  
+Backend: 
 - Next.js API Routes (serverless functions)  
 - Static data mocked as API responses (due to time limitation)  
 
@@ -55,7 +57,7 @@ Built with **Next.js + TypeScript** to demonstrate frontend, backend, and data h
 
 ---
 
-## 📂 Project Structure  
+ Project Structure  
 
 ├── public
 ├── src
@@ -93,31 +95,31 @@ Built with **Next.js + TypeScript** to demonstrate frontend, backend, and data h
 
 ---
 
-## 📋 How to Run  
+##  How to Run  
 
-### 1️⃣ Clone Repo  
+### 1 Clone Repo  
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-2️⃣ Install Dependencies
+2️ Install Dependencies
 npm install
 
-3️⃣ Run Dev Server
+3️ Run Dev Server
 npm run dev
 
 
 App will be live at  http://localhost:3000
 
-## 💡 Future Enhancements  
+##  Future Enhancements  
 
-- 🔄 **Instagram Scraping Pipeline** – Build a real-time scraper using Puppeteer/Instaloader to fetch live influencer data.  
-- 🗄️ **Database Integration** – Replace static JSON with MongoDB/PostgreSQL for persistent storage and queries.  
-- 🖼️ **AI-Powered Post Analysis** – Use OpenCV/TensorFlow/Gemini API for:  
+-  **Instagram Scraping Pipeline** – Build a real-time scraper using Puppeteer/Instaloader to fetch live influencer data.  
+-  **Database Integration** – Replace static JSON with MongoDB/PostgreSQL for persistent storage and queries.  
+-  **AI-Powered Post Analysis** – Use OpenCV/TensorFlow/Gemini API for:  
   - Auto-tag generation from images  
   - Vibe/ambience classification (casual, aesthetic, luxury, etc.)  
   - Quality indicators (lighting, clarity, visual appeal)  
-- 🎥 **Video/Reels Analysis** – Detect objects/events in reels (e.g., "beach", "dance", "food review") and classify ambience.  
-- 📊 **Audience Demographics Dashboard** – Infer and visualize gender split, age groups, and geographic distribution of audience.  
-- 📈 **Advanced Analytics** – Add deeper insights like engagement trends over time, content category distribution, and reach estimations.  
-- 🌐 **Deployment** – Host the app on Vercel/Netlify for frontend and Render/Heroku for backend with connected database.  
+-  **Video/Reels Analysis** – Detect objects/events in reels (e.g., "beach", "dance", "food review") and classify ambience.  
+-  **Audience Demographics Dashboard** – Infer and visualize gender split, age groups, and geographic distribution of audience.  
+-  **Advanced Analytics** – Add deeper insights like engagement trends over time, content category distribution, and reach estimations.  
+-  **Deployment** – Host the app on Vercel/Netlify for frontend and Render/Heroku for backend with connected database.  
